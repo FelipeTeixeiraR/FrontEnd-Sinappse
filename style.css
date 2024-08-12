@@ -1,8 +1,11 @@
+body{
+    background-color: rgb(12, 12, 12);
+}
 #upbar{
     position: absolute;
     top: 0%;
     left: 0%;
-    background-color: rgb(0, 184, 76);
+    background-color: rgb(12, 12, 12);
     width: 100%;
     height: 8%;
 }
