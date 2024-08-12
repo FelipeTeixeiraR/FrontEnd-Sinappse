@@ -30,3 +30,15 @@ body{
     width: 13%;
     left: 6%;
 }
+#IMGLogin{
+    position: absolute;
+    width: 4%;
+    right: 10%;
+}
+#TXTLogin{
+    top: -0.5%;
+    font-size: 23px;
+    right: 5.5%;
+    position: absolute;
+    color: white;
+}
