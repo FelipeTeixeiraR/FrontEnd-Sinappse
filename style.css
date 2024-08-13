@@ -1,44 +1,64 @@
-body{
-    background-color: rgb(12, 12, 12);
-}
 #upbar{
     position: absolute;
     top: 0%;
     left: 0%;
-    background-color: rgb(12, 12, 12);
+    background-color: rgba(12, 12, 12, 0.685);
+    
     width: 100%;
-    height: 8%;
+    height: 10%;
+    
 }
-#login{
-    border-radius: 0.5rem;
-    border-style: solid;
-    padding: 1%;
-    width: 2%;
+body {
+    overflow-x: hidden;
 }
-#ImagemInicio{
+#logo{
     position: absolute;
-    width: 50%;
-    top: 10%;
-    left: -7px;
+    width: auto;
+    height: 75%;
+    margin-top: 0.3%;
+    left: 2%;
 }
-#logoSinappse{
-    position: absolute;
-    width: 4.8%;
+body{
+    background-color: rgb(12, 12, 12);
 }
-#TextoSinappse{
+#sidebar{
     position: absolute;
-    width: 13%;
-    left: 6%;
+    height: 100%;
+    width: 20%;
+    top: 0%;
+    left: 100%;
+    display: block;
+    background-color: black;
+    transition: 2s;
+    
 }
-#IMGLogin{
+#menu{
     position: absolute;
-    width: 4%;
-    right: 10%;
+    width: 1.5%;
+    height: 5%;
+    margin-top: 2%;
+    left: 90%;
+    z-index: 1000;
+
 }
-#TXTLogin{
-    top: -0.5%;
-    font-size: 23px;
-    right: 5.5%;
+#menu1,#menu2,#menu3{
+    background-color: white;
+    width: 100%;
+    height: 5%;
     position: absolute;
-    color: white;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+#menu1{
+    margin-top: 0%;
+    transition: 1s;
+}
+#menu2{
+    margin-top: 30%;
+    transition: 0.2s;
+}
+#menu3{
+    margin-top: 60%;
+    transition: 0.2s;
 }
