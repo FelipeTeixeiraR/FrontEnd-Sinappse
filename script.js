@@ -14,11 +14,12 @@ function AnimationMenuBar() {
         MenuLine1.style.transform = "rotate(45deg)"
         MenuLine3.style.transform = "rotate(-45deg)"
         SideBar.style.transform = "translateX(-100%)"
-        
+        menu.style.transform = "translate(-500%)"
     } else {
         MenuLine1.style.transform = "rotate(0deg)"
         MenuLine3.style.transform = "rotate(0deg)"
         SideBar.style.transform = "translateX(100%)"
+        menu.style.transform = "translate(100%)"
         setTimeout(() => {
            MenuLine2.style.display = "block"
         }, 250); // 
