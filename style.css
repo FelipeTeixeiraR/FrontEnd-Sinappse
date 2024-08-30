@@ -62,7 +62,7 @@ h1{
 }
 #Signup{
     border-style: solid ;
-    border-color: #00dbb3;
+    border-color: #00bf63;
     position: absolute;
     margin-top: 45%;
     left: 61%;
@@ -72,11 +72,11 @@ h1{
     padding-right: 5.5%;
 }
 #signup_text{
-        color: #00dbb3;
+        color: #00bf63;
         font-size: 30px;
 }
 #Login{
-    background-color: #00dbb3;
+    background-color: #00bf63;
     position: absolute;
     margin-top: 55%;
     left: 61%;
